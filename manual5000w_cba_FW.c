@@ -178,7 +178,9 @@ OVDCON=TABLE_FW[INDEX];
 
 
 void main(void)
-{ setup_wdt (WDT_OFF);
+{ 
+  // save project on the world
+  setup_wdt (WDT_OFF);
   flg_t4=0;
   //trisb=0x000f;
   TRIS_E8=1;
