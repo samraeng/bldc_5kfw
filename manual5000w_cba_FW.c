@@ -271,7 +271,7 @@ void main(void)
    // fltaif=0;
    // FLTACON=0XFF07;
   while(true)
-{
+{//  test eduit branch edit 01
 
 set_timer1(500);
 set_adc_channel( 0 );
